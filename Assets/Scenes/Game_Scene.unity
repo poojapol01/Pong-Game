@@ -966,6 +966,7 @@ GameObject:
   - component: {fileID: 1257409828}
   - component: {fileID: 1257409831}
   - component: {fileID: 1257409830}
+  - component: {fileID: 1257409832}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -1076,15 +1077,30 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.001
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 100
+  m_GravityScale: 0
   m_Material: {fileID: 6200000, guid: c462c142fde2a0e478380840cf3209f5, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1257409832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257409826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59e5b0cc73b7c214da7a6aea57faa308, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementSpeed: 400
+  extraSpeedPerHit: 50
+  maxExtraSpeed: 1000
 --- !u!1 &1294798928
 GameObject:
   m_ObjectHideFlags: 0
