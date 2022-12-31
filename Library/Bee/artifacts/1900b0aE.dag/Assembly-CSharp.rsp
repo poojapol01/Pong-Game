@@ -356,6 +356,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/BallMovement.cs"
 "Assets/Scripts/PlayButtonScript.cs"
+"Assets/Scripts/RacketPlayer1.cs"
 -langversion:9.0
 
 /deterministic
