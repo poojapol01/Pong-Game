@@ -355,6 +355,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/BallMovement.cs"
+"Assets/Scripts/CollisionController.cs"
 "Assets/Scripts/PlayButtonScript.cs"
 "Assets/Scripts/RacketPlayer1.cs"
 "Assets/Scripts/RacketPlayer2.cs"
