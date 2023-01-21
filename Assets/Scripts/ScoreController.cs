@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ScoreController : MonoBehaviour
 {
@@ -19,6 +20,7 @@ public class ScoreController : MonoBehaviour
         if(this.scorePlayer1 >= winScore || this.scorePlayer2 >= winScore)
         {
             Debug.Log("Game Won");
+            SceneManager.LoadScene("Game_Over_Scene");
         }
     }
 
