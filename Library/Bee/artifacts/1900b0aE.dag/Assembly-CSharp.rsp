@@ -360,6 +360,7 @@
 "Assets/Scripts/RacketPlayer1.cs"
 "Assets/Scripts/RacketPlayer2.cs"
 "Assets/Scripts/ScoreController.cs"
+"Assets/Scripts/SoundController.cs"
 -langversion:9.0
 
 /deterministic
