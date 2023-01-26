@@ -1,13 +1,15 @@
 # Pong-Game
 Unity 2D Pong Game using Unity's 2D Physics engine
 
-**Game Concept**
+**Game Concept** :
+
 ![basic_rules](https://user-images.githubusercontent.com/69631505/214613832-6436a347-8d16-401a-93ab-b613fde4a8d2.png)
 
 The game rules should be very similar to the original Pong. The right player scores a point if the ball hits the left wall. The left player scores a point if the ball hits the right wall. If it hits the top or bottom wall then it bounces off. Each player will have a racket that can be moved up and down to hit back the ball.
 
 
-**Our rackets should have an influence on the ball's outgoing angle:**
+**Our rackets should have an influence on the ball's outgoing angle:** :
+
 ![racket_bounce_angles](https://user-images.githubusercontent.com/69631505/214613915-e166b0f7-4705-4a3d-9a1a-8f5f703c7045.png)
 
 - If the racket hits the ball at the top corner, then it should bounce off towards our top border.
